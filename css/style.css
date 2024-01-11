@@ -1,0 +1,102 @@
+.navigation ul {
+    list-style: none;
+    padding: 0; 
+}
+
+.navigation ul li {
+    display: inline-block;
+    margin-right: 10px; 
+}
+
+
+.navigation ul li a {
+    text-decoration: none;
+}
+
+
+.inline-block {
+    display: inline-block;
+    vertical-align: top;
+}
+
+
+.logo {
+    width: 23%;
+    padding: 1%;
+}
+
+nav {
+    width: 73%;
+    padding: 1%;
+}
+
+
+ul {
+    width: 50%;
+    margin-left: auto;
+}
+
+
+.logo img {
+    display: block;
+    margin: 0 auto;
+}
+
+
+footer ul {
+    text-align: center;
+}
+
+/* Target the section with the class of heroImg */
+.heroImg {
+    height: 600px;
+    padding: 25px;
+}
+
+/* Target the class of content */
+.heroImg .content {
+    width: 500px;
+    margin: 0 auto;
+}
+
+/* Additional styling for the image, paragraph, and button if needed */
+.heroImg img {
+    max-width: 100%; /* Make sure the image is responsive within its container */
+}
+
+.heroImg p {
+    text-align: center; /* Center the paragraph text */
+}
+
+.heroImg button {
+    display: block;
+    margin: 20px auto; /* Center the button */
+    padding: 10px 20px;
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+/* Target the base HTML footer element */
+footer {
+    background-color: #373738;
+    padding: 20px; /* Adjust the padding according to your design */
+}
+
+/* Target the nested ul inside the footer */
+footer ul {
+    display: inline-block;
+    vertical-align: top;
+    padding: 0;
+    list-style: none; /* Remove default list styles */
+}
+
+/* Style the individual li elements inside the footer */
+footer li {
+    padding: 5px 15px; /* Adjust the padding according to your design */
+    color: #fff; /* Set text color to white or your preferred color */
+}
+
+/* Additional styling for the footer if needed */
